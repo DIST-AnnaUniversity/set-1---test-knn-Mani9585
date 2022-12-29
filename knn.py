@@ -23,7 +23,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,y,random_state =0)
 #use standard scaler and fit the values of X
 
 ##use the k value for neighbors as 4 with euclidean distance
-knn = KNeighborsClassifier(n_neigbors = 4)
+knn = KNeighborsClassifier(n_neighbors = 4)
 ##predict the test portion of 20%
 knn.fit(X_trian,y_train)
 
