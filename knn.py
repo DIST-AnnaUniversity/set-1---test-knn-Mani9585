@@ -14,7 +14,7 @@ X = data[["Gender","EstimatedSalary"]].to_numpy()
 y = data[["Purchased"]].to_numpy()
 
 #use label encoder to fit X
-label_encoder = preprocessing.LabelEncoder()
+label_encoder = LabelEncoder()
 data['Gender'] = label_encoder.fit_transform(data["Gender"])
 data['EstimatedSalary'] = label_encoder.fit_transform(data["EstimatedSalary"])
 #split training and testing to 80 and 20% and set the random state as 0
