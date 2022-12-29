@@ -8,5 +8,5 @@ X = data[['Gender','EstimatedSalary']].to_numpy()
 #take y as the last column - Purchased
 y = data[['Purchased']].to_numpy()
 #print the dimension of training set
-dims = (X.ndim,y.ndim)
+dims = (len(X),len(x[0]))
 print(dims)
