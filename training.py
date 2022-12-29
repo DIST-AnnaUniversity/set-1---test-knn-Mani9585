@@ -11,4 +11,4 @@ X = np.array(X)
 #take y as the last column - Purchased
 y = pd.DataFrame(data['Purchased'])
 #print the dimension of training set
-print(X.shape())
+print(X.ndim())
