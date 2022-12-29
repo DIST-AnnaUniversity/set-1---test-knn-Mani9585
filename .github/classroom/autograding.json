@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "count_male",
+      "setup": "sudo -H pip3 install pandas",
+      "run": "python3 count_male.py",
+      "input": "",
+      "output": "196",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "training.py",
+      "setup": "sudo -H pip3 install pandas; sudo -H pip3 install numpy",
+      "run": "python3 training.py",
+      "input": "",
+      "output": "(400, 2)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "knn",
+      "setup": "sudo -H pip3 install numpy;sudo -H pip3 install scikit-learn; sudo -H pip3 install pandas",
+      "run": "python3 knn.py",
+      "input": "",
+      "output": "67",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    }
+  ]
+}
