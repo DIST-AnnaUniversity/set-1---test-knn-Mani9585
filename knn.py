@@ -11,7 +11,7 @@ data = pd.read_csv('soc.csv')
 ##take the values of Gender and Estimated Salary - X as a numpy array (use .values)
 X = data[["Gender","EstimatedSalary"]].to_numpy()
 #take y as the last column - Purchased
-y = data[["Purachased"]].to_numpy()
+y = data[["Purchased"]].to_numpy()
 
 #use label encoder to fit X
 label_encoder = preprocessing.LabelEncoder()
