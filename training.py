@@ -4,8 +4,7 @@ import numpy as np
 #read csv file
 data = pd.read_csv('soc.csv')
 #take the values of Gender and Estimated Salary as a numpy array (use .values)
-X = pd.DataFrame(data,columns=['Gender','EstimatedSalary'])
-X = np.array(X)
+X = np.array(data,columns=['Gender','EstimatedSalary'])
 
 
 #take y as the last column - Purchased
