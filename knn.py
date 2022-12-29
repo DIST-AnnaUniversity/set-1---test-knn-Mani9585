@@ -25,7 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,y,random_state =0)
 ##use the k value for neighbors as 4 with euclidean distance
 knn = KNeighborsClassifier(n_neighbors = 4)
 ##predict the test portion of 20%
-knn.fit(X_trian,y_train)
+knn.fit(X_train,y_train)
 
 ##how many predictions match with true values
 
