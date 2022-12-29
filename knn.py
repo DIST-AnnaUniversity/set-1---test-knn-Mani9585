@@ -7,7 +7,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 
 ##read csv file
+dataset = pd.read_csv('soc.csv')
 ##take the values of Gender and Estimated Salary - X as a numpy array (use .values)
+X = np.array(data,columns = [
 #take y as the last column - Purchased
 
 
